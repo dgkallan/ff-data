@@ -1,0 +1,31 @@
+{
+ "pulled": "2026-08-26T17:05:23.142567Z",
+ "date": "2026-08-26",
+ "week": 0,
+ "files": {
+  "ecr-QB.json": {
+   "bytes": 70393,
+   "records": 105
+  },
+  "ecr-RB.json": {
+   "bytes": 126058,
+   "records": 187
+  },
+  "ecr-TE.json": {
+   "bytes": 114537,
+   "records": 171
+  },
+  "ecr-WR.json": {
+   "bytes": 173308,
+   "records": 257
+  },
+  "ecr-idp-LB.json": {
+   "bytes": 449602,
+   "records": 753
+  },
+  "projections-season.json": {
+   "bytes": 216125,
+   "records": 527
+  }
+ }
+}
