@@ -1,0 +1,470 @@
+{
+  "schema_version": "1.0",
+  "schema_note": "The ff-data README contains no schema definition; this structure was designed for this pull. Keys follow the snake_case / 'pulled'+'date'+'week' convention of nfl/manifest.json.",
+  "pulled": "2026-08-26T18:54:11Z",
+  "date": "2026-08-26",
+  "season": 2026,
+  "week": 1,
+  "season_phase": "preseason",
+  "source": "FantasyPros My Playbook (league re-synced before reading)",
+  "league": {
+    "key": "tx2025",
+    "name": "TX2025",
+    "platform": "CBS",
+    "type": "2026 Season Redraft",
+    "teams": 12,
+    "playoff_teams": 6,
+    "scoring": "Custom (2QB/Superflex PPR)",
+    "roster_slots": "2 QB, 2 RB, 3 WR, TE, WR+RB+TE, 5 BN",
+    "waiver_type": "FAB",
+    "faab_budget": 3000,
+    "draft": {
+      "type": "Snake",
+      "rounds": 14,
+      "my_draft_position": 5,
+      "draft_date": "2026-08-29",
+      "status": "not_drafted"
+    }
+  },
+  "my_team": "Ja'Marr You Not Entertained?",
+  "teams": [],
+  "teams_note": "Empty by design. The 2026 draft is scheduled for Sat Aug 29 2026 and has not happened. After the re-sync, FantasyPros rendered 14-man rosters for all 12 teams, but that is cached carryover, not 2026 state: it includes Philip Rivers (retired, listed FA), FantasyPros itself returned 'Your league has not drafted yet' for this league, and no Week 1 opponent is scheduled. Per instruction, cached rosters were not written as current.",
+  "team_names": [
+    "6 7",
+    "RealMenWearPowderBlue",
+    "Red Dogs",
+    "Ja'Marr You Not Entertained?",
+    "Public Pension Power",
+    "DankFu",
+    "Cuddies",
+    "Infinite Hero Bacon",
+    "Bills Mafia",
+    "Ordinary MohJoes",
+    "Jotissimo",
+    "Seamus the Kiltlifter"
+  ],
+  "free_agents": {
+    "count": 40,
+    "ranking_method": "Sorted by ADP ascending, then positional ECR. WARNING: FantasyPros computes this league's available-player pool by subtracting the cached pre-clear rosters described in teams_note, so it is not a true pre-draft free-agent pool (e.g. Ja'Marr Chase is absent because the stale roster still holds him).",
+    "reliability": "low_pre_draft",
+    "players": [
+      {
+        "rank": 1,
+        "name": "Malik Nabers",
+        "position": "WR",
+        "nfl_team": "NYG",
+        "bye_week": 8,
+        "ecr": "WR 12",
+        "adp": 12,
+        "rostered_pct": null
+      },
+      {
+        "rank": 2,
+        "name": "Jeremiyah Love",
+        "position": "RB",
+        "nfl_team": "ARI",
+        "bye_week": 14,
+        "ecr": "RB 17",
+        "adp": 14,
+        "rostered_pct": null
+      },
+      {
+        "rank": 3,
+        "name": "Kyler Murray",
+        "position": "QB",
+        "nfl_team": "MIN",
+        "bye_week": 6,
+        "ecr": "QB 20",
+        "adp": 17,
+        "rostered_pct": null
+      },
+      {
+        "rank": 4,
+        "name": "Quinshon Judkins",
+        "position": "RB",
+        "nfl_team": "CLE",
+        "bye_week": 11,
+        "ecr": "RB 20",
+        "adp": 22,
+        "rostered_pct": null
+      },
+      {
+        "rank": 5,
+        "name": "Cam Skattebo",
+        "position": "RB",
+        "nfl_team": "NYG",
+        "bye_week": 8,
+        "ecr": "RB 21",
+        "adp": 19,
+        "rostered_pct": null
+      },
+      {
+        "rank": 6,
+        "name": "Bhayshul Tuten",
+        "position": "RB",
+        "nfl_team": "JAC",
+        "bye_week": 7,
+        "ecr": "RB 24",
+        "adp": 24,
+        "rostered_pct": null
+      },
+      {
+        "rank": 7,
+        "name": "Terry McLaurin",
+        "position": "WR",
+        "nfl_team": "WAS",
+        "bye_week": 7,
+        "ecr": "WR 24",
+        "adp": 26,
+        "rostered_pct": null
+      },
+      {
+        "rank": 8,
+        "name": "Jadarian Price",
+        "position": "RB",
+        "nfl_team": "SEA",
+        "bye_week": 11,
+        "ecr": "RB 25",
+        "adp": 27,
+        "rostered_pct": null
+      },
+      {
+        "rank": 9,
+        "name": "Rome Odunze",
+        "position": "WR",
+        "nfl_team": "CHI",
+        "bye_week": 10,
+        "ecr": "WR 26",
+        "adp": 27,
+        "rostered_pct": null
+      },
+      {
+        "rank": 10,
+        "name": "Brock Bowers",
+        "position": "TE",
+        "nfl_team": "LV",
+        "bye_week": 13,
+        "ecr": "TE 1",
+        "adp": 2,
+        "rostered_pct": null
+      },
+      {
+        "rank": 11,
+        "name": "Tucker Kraft",
+        "position": "TE",
+        "nfl_team": "GB",
+        "bye_week": 11,
+        "ecr": "TE 5",
+        "adp": 5,
+        "rostered_pct": null
+      },
+      {
+        "rank": 12,
+        "name": "J.K. Dobbins",
+        "position": "RB",
+        "nfl_team": "DEN",
+        "bye_week": 10,
+        "ecr": "RB 30",
+        "adp": 32,
+        "rostered_pct": null
+      },
+      {
+        "rank": 13,
+        "name": "Fernando Mendoza",
+        "position": "QB",
+        "nfl_team": "LV",
+        "bye_week": 13,
+        "ecr": "QB 30",
+        "adp": 27,
+        "rostered_pct": null
+      },
+      {
+        "rank": 14,
+        "name": "Carnell Tate",
+        "position": "WR",
+        "nfl_team": "TEN",
+        "bye_week": 9,
+        "ecr": "WR 31",
+        "adp": 32,
+        "rostered_pct": null
+      },
+      {
+        "rank": 15,
+        "name": "Jonathon Brooks",
+        "position": "RB",
+        "nfl_team": "CAR",
+        "bye_week": 5,
+        "ecr": "RB 32",
+        "adp": 40,
+        "rostered_pct": null
+      },
+      {
+        "rank": 16,
+        "name": "Michael Penix Jr.",
+        "position": "QB",
+        "nfl_team": "ATL",
+        "bye_week": 11,
+        "ecr": "QB 33",
+        "adp": 33,
+        "rostered_pct": null
+      },
+      {
+        "rank": 17,
+        "name": "Jordan Mason",
+        "position": "RB",
+        "nfl_team": "MIN",
+        "bye_week": 6,
+        "ecr": "RB 35",
+        "adp": 36,
+        "rostered_pct": null
+      },
+      {
+        "rank": 18,
+        "name": "Deshaun Watson",
+        "position": "QB",
+        "nfl_team": "CLE",
+        "bye_week": 11,
+        "ecr": "QB 35",
+        "adp": 38,
+        "rostered_pct": null
+      },
+      {
+        "rank": 19,
+        "name": "Quentin Johnston",
+        "position": "WR",
+        "nfl_team": "LAC",
+        "bye_week": 7,
+        "ecr": "WR 36",
+        "adp": 40,
+        "rostered_pct": null
+      },
+      {
+        "rank": 20,
+        "name": "Mac Jones",
+        "position": "QB",
+        "nfl_team": "SF",
+        "bye_week": 8,
+        "ecr": "QB 37",
+        "adp": 46,
+        "rostered_pct": null
+      },
+      {
+        "rank": 21,
+        "name": "Sam Howell",
+        "position": "QB",
+        "nfl_team": "DAL",
+        "bye_week": 14,
+        "ecr": "QB 38",
+        "adp": null,
+        "rostered_pct": null
+      },
+      {
+        "rank": 22,
+        "name": "Carson Beck",
+        "position": "QB",
+        "nfl_team": "ARI",
+        "bye_week": 14,
+        "ecr": "QB 39",
+        "adp": 36,
+        "rostered_pct": null
+      },
+      {
+        "rank": 23,
+        "name": "Tommy DeVito",
+        "position": "QB",
+        "nfl_team": "NE",
+        "bye_week": 11,
+        "ecr": "QB 40",
+        "adp": 44,
+        "rostered_pct": null
+      },
+      {
+        "rank": 24,
+        "name": "Justin Fields",
+        "position": "QB",
+        "nfl_team": "KC",
+        "bye_week": 5,
+        "ecr": "QB 41",
+        "adp": 39,
+        "rostered_pct": null
+      },
+      {
+        "rank": 25,
+        "name": "Makai Lemon",
+        "position": "WR",
+        "nfl_team": "PHI",
+        "bye_week": 10,
+        "ecr": "WR 42",
+        "adp": 60,
+        "rostered_pct": null
+      },
+      {
+        "rank": 26,
+        "name": "Jameis Winston",
+        "position": "QB",
+        "nfl_team": "NYG",
+        "bye_week": 8,
+        "ecr": "QB 42",
+        "adp": 40,
+        "rostered_pct": null
+      },
+      {
+        "rank": 27,
+        "name": "Jimmy Garoppolo",
+        "position": "QB",
+        "nfl_team": "LAR",
+        "bye_week": 11,
+        "ecr": "QB 43",
+        "adp": null,
+        "rostered_pct": null
+      },
+      {
+        "rank": 28,
+        "name": "Tank Bigsby",
+        "position": "RB",
+        "nfl_team": "PHI",
+        "bye_week": 10,
+        "ecr": "RB 45",
+        "adp": 55,
+        "rostered_pct": null
+      },
+      {
+        "rank": 29,
+        "name": "Joe Flacco",
+        "position": "QB",
+        "nfl_team": "CIN",
+        "bye_week": 6,
+        "ecr": "QB 45",
+        "adp": 41,
+        "rostered_pct": null
+      },
+      {
+        "rank": 30,
+        "name": "Spencer Rattler",
+        "position": "QB",
+        "nfl_team": "NO",
+        "bye_week": 8,
+        "ecr": "QB 46",
+        "adp": null,
+        "rostered_pct": null
+      },
+      {
+        "rank": 31,
+        "name": "Will Levis",
+        "position": "QB",
+        "nfl_team": "TEN",
+        "bye_week": 9,
+        "ecr": "QB 47",
+        "adp": null,
+        "rostered_pct": null
+      },
+      {
+        "rank": 32,
+        "name": "Isiah Pacheco",
+        "position": "RB",
+        "nfl_team": "DET",
+        "bye_week": 6,
+        "ecr": "RB 48",
+        "adp": 52,
+        "rostered_pct": null
+      },
+      {
+        "rank": 33,
+        "name": "Tyler Huntley",
+        "position": "QB",
+        "nfl_team": "BAL",
+        "bye_week": 13,
+        "ecr": "QB 48",
+        "adp": 56,
+        "rostered_pct": null
+      },
+      {
+        "rank": 34,
+        "name": "Jonah Coleman",
+        "position": "RB",
+        "nfl_team": "DEN",
+        "bye_week": 10,
+        "ecr": "RB 49",
+        "adp": 49,
+        "rostered_pct": null
+      },
+      {
+        "rank": 35,
+        "name": "KC Concepcion",
+        "position": "WR",
+        "nfl_team": "CLE",
+        "bye_week": 11,
+        "ecr": "WR 50",
+        "adp": 48,
+        "rostered_pct": null
+      },
+      {
+        "rank": 36,
+        "name": "Matthew Golden",
+        "position": "WR",
+        "nfl_team": "GB",
+        "bye_week": 11,
+        "ecr": "WR 51",
+        "adp": 53,
+        "rostered_pct": null
+      },
+      {
+        "rank": 37,
+        "name": "Rashid Shaheed",
+        "position": "WR",
+        "nfl_team": "SEA",
+        "bye_week": 11,
+        "ecr": "WR 52",
+        "adp": 52,
+        "rostered_pct": null
+      },
+      {
+        "rank": 38,
+        "name": "Tyjae Spears",
+        "position": "RB",
+        "nfl_team": "TEN",
+        "bye_week": 9,
+        "ecr": "RB 52",
+        "adp": 48,
+        "rostered_pct": null
+      },
+      {
+        "rank": 39,
+        "name": "Jordyn Tyson",
+        "position": "WR",
+        "nfl_team": "NO",
+        "bye_week": 8,
+        "ecr": "WR 53",
+        "adp": 45,
+        "rostered_pct": null
+      },
+      {
+        "rank": 40,
+        "name": "Braelon Allen",
+        "position": "RB",
+        "nfl_team": "NYJ",
+        "bye_week": 13,
+        "ecr": "RB 53",
+        "adp": 54,
+        "rostered_pct": null
+      }
+    ]
+  },
+  "matchup": null,
+  "matchup_note": "No Week 1 opponent is scheduled; the Matchup page shows 'Select Opponent' with 0.00 projected against 122.30 for my (cached) roster.",
+  "transactions": {
+    "recently_added": [],
+    "recently_dropped": [],
+    "recently_traded": [],
+    "note": "FantasyPros reports no recent adds, drops or trades for this league."
+  },
+  "standings": null,
+  "missing_fields": [
+    "teams - deliberately empty; see teams_note. 2026 draft is 2026-08-29.",
+    "teams[].faab_remaining - not exposed by FantasyPros; only the league-wide FAB budget ($3000) is shown.",
+    "free_agents[].rostered_pct - FantasyPros shows no ROST % column for this CBS league (the ESPN league does).",
+    "standings - the 2026 regular season has not started, and this league has not drafted.",
+    "matchup - no opponent scheduled for Week 1.",
+    "lineup_slot - not applicable pre-draft."
+  ]
+}
