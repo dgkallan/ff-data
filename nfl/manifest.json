@@ -1,50 +1,50 @@
 {
- "pulled": "2026-10-08T13:00:27.843356+00:00",
- "date": "2026-10-08",
+ "pulled": "2026-10-11T13:00:28.147798+00:00",
+ "date": "2026-10-11",
  "week": 5,
  "files": {
   "ecr-QB.json": {
-   "bytes": 58065,
-   "records": 67
+   "bytes": 73825,
+   "records": 63
   },
   "ecr-RB.json": {
-   "bytes": 80988,
-   "records": 93
+   "bytes": 118178,
+   "records": 111
   },
   "ecr-TE.json": {
-   "bytes": 56466,
-   "records": 65
+   "bytes": 100055,
+   "records": 105
   },
   "ecr-WR.json": {
-   "bytes": 117429,
-   "records": 135
+   "bytes": 168110,
+   "records": 155
   },
   "ecr-idp-DB.json": {
-   "bytes": 100541,
-   "records": 130
+   "bytes": 161745,
+   "records": 197
   },
   "ecr-idp-DL.json": {
-   "bytes": 119295,
-   "records": 153
+   "bytes": 202018,
+   "records": 246
   },
   "ecr-idp-LB.json": {
-   "bytes": 94931,
-   "records": 122
+   "bytes": 155467,
+   "records": 181
   },
   "injuries.json": {
-   "bytes": 237468,
+   "bytes": 263295,
    "records": 6
   },
   "news.json": {
-   "bytes": 15622,
+   "bytes": 14978,
    "records": 7
   },
   "projections-ros.json": {
-   "bytes": 158634,
-   "records": 379
+   "bytes": 159034,
+   "records": 380
   },
   "projections-season.json": {
-   "bytes": 224266,
+   "bytes": 224263,
    "records": 545
   },
   "projections-week1.json": {
@@ -64,8 +64,8 @@
    "records": 522
   },
   "projections-week5.json": {
-   "bytes": 221423,
-   "records": 552
+   "bytes": 215206,
+   "records": 536
   }
  }
 }
